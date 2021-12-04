@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Lucas Lima" />
+  <title>Início</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <script src="script.js">
+
+  </script>
+  <header>
+    <!--precisa conter botões home, projetos
+      experiencias, repositrios do github,
+      recomendcoes YT e uma barra de pesquisa.-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">TP DIW</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Início | <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projetos | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experiências | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="repo.html">Repositórios </a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ir</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <main class="container-fluid">
+    <div class="jumbotron jumbotron-fluid">
+      <link href="css/style.css" rel="stylesheet">
+
+      <div class="introducao">
+        <img src="img/perifl.jpg" id="fotoPerfil" alt="Foto-Perfil">
+        <h1 class="display-4">Lucas Lima</h1>
+        <p id="txtIntro">
+          Olá, me chamo Lucas Lima tenho 22 anos e sou aluno de Sistemas de Informação na PUC Minas, campus São
+          Gabriel.<br>Atualmente estou cursando o primeiro período e é a primeira vez que estou aprendendo sobre
+          linguagens de desenvolvimento web.<br>Antes de vir para a PUC eu cursei por quase 3 anos engenharia de
+          computação no CEFET-MG. Gosto da área de tecnologia e quero aprender cada vez mais para conseguir entrar e
+          permanecer no mundo tech.
+        </p>
+        <div class="container">
+          <!--icones das redes sociais-->
+          <h4>Redes Sociais</h4>
+          <a href="https://www.linkedin.com/in/lucas-santos5668/"><img src="img/linkedin.png"
+              class="media-object  img-responsive img-thumbnail"></a>
+          <a href="https://www.instagram.com/luks.san99/"><img src="img/instagram.png"
+              class="media-object  img-responsive img-thumbnail"></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5531996166591&text=Hey%20Lucas%2C%20o%20direcionador%20funcionou!%20"><img
+              src="img/whatsapp.png" class="media-object  img-responsive img-thumbnail"></a>
+        </div>
+      </div>
+
+      <div class="rowProjects">
+        <link href="css/style.css" rel="stylesheet">
+        <!--preciso por o titulo projetos aqui e ao
+      lado colocar uma barra de pesquisa.-->
+        <div class="cabecalhoProj">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <h2 class="titiProj">
+                Projetos
+              </h2>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">ir</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <!--Cards de projetos, preciso de 4-->
+        <div class="cards">
+          <div class="card" style="width: 18rem;">
+            <img class="tela-tp" src="img/java.png" alt="card-JAVA">
+            <div class="card-body">
+              <p class="card-text">Projeto realizado na linguagem JAVA par apesentação na disciplina de linguagem de
+                progamação que cursei em 2019
+              </p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/C1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Programa criado em C para converter moedas de dóllar para real</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/C2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Programa criado em C para dizer qual número é primo</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/python.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Linguagem que ainda quero aprender "<Python>"</p>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="projects.html" role="button">Ver Mais</a>
+      </div>
+
+      <div class="rowExperience">
+        <!--preciso por o titulo projetos aqui.-->
+        <div class="cabecalhoExp">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <h2 class="titiProj">
+                Experiência
+              </h2>
+            </div>
+          </nav>
+        </div>
+        <div class="cards">
+          <div class="container-fluid">
+            <img class="card-img-left" src="img/topograph.jpg" alt="Card image cap">
+            <div class="card">
+              <div class="card-header">
+                Menor Aprendiz
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Minha última e única experiência de trabalho foi como menor aprendiz em uma empresa de construção
+                    para fazer<br> o curso de Assistente em Topografia no Senai Minas.</p>
+                  <footer class="blockquote-footer">Admissão: Jan/2018 - Demissão: Jul/2018</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <img class="card-img-left" src="img/comp.jpg" alt="Card image cap">
+            <div class="card">
+              <div class="card-header">
+                Experiência com Equipes de Competição
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Em 2018 e 2019 participei da equipe de competição de robótica, Pacific Botz, no CEFET-MG. Aonde
+                    aprendi sobre competições de robôs Lego,<br>programação java e pude participar de um Summit de
+                    Robótica em Jaraguá do Sul, promovido pela Católica SC.</p>
+                  <footer class="blockquote-footer">Participação por aproximadamente 8 meses</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <img class="card-img-left" src="img/html.jpg" alt="Card image cap">
+            <div class="card">
+              <div class="card-header">
+                Apredendo linguagens de desenvolvimento web
+              </div>
+              <div class="card-body">
+                <blockquote class="blockquote mb-0">
+                  <p>Aprender a desenvolver esse site está sendo um desafio um tanto prazeroso. É a primeira vez que
+                    estou tendo contato e descobrindo mais. Era algo que tinha interesse em aprender um dia, mas vivia
+                    adiando.</p>
+                  <footer class="blockquote-footer">Caminhando</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-primary" href="experience.html" role="button">Ver Mais</a>
+        </div>
+      </div>
+
+      <div class="rowRepo">
+        <!--aqui coloco repos do github e preciso do titulo aqui-->
+        <link href="css/style.css" rel="stylesheet">
+        <!--preciso por o titulo projetos aqui e ao
+      lado colocar uma barra de pesquisa.-->
+        <div class="cabecalhoRepo">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <h2 class="titiRepo">
+                Repos Github e outros
+              </h2>
+            </div>
+          </nav>
+        </div>
+        <!--Cards de projetos, preciso de 4-->
+        <div class="cards">
+          <div class="card" style="width: 18rem;">
+            <img class="tela-tp" src="img/folder.png" alt="Image by DinosoftLabs">
+            <div class="card-body">
+              <p class="card-text">Projeto 1
+              </p>
+              <p>Projetos serão adicionados à medida que forem upados no nas plataformas github e gitlab ☻</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/folder.png" alt="Image by DinosoftLabs">
+            <div class="card-body">
+              <p class="card-text">Projeto 2</p>
+              <p>Projetos serão adicionados à medida que forem upados no nas plataformas github e gitlab ☻</p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/folder.png" alt="Image by DinosoftLabs">
+            <div class="card-body">
+              <p class="card-text">Projeto 3<Python>
+              </p>
+              <p>Projetos serão adicionados à medida que forem upados no nas plataformas github e gitlab ☻</p>
+            </div>
+          </div>
+        </div>
+        <a class="btn btn-primary" href="repo.html" role="button">Ver Mais</a>
+      </div>
+
+      <div class="rowRecomendations">
+        <link href="css/style.css" rel="stylesheet">
+        <div class="cabecalhoRec">
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <h2 class="titiRepo">
+                Músicas que eu curto
+              </h2>
+            </div>
+          </nav>
+        </div>
+        <div class="posts-videos">
+          <iframe width="auto" height="auto" src="https://www.youtube.com/embed/u1477zQ4Au0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <iframe width="auto" height="auto" src="https://www.youtube.com/embed/yBdTVmSVq14"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <iframe width="auto" height="auto" src="https://www.youtube.com/embed/8uwOJCW_UIc"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+          <iframe width="auto" height="auto" src="https://www.youtube.com/embed/X4Q7d0CtYyk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+      <a class="btn btn-primary" href="recomendations.html" role="button">Ver Mais</a>
+    </div>
+    </div>
+    <!--Copyright-->
+    <div class="site-footer--copyright fs-fine">
+      <p class="mt-auto mb24">
+        Este site está sendo desenvolvido para apresentação de aprendizado da disciplina de Desenvolvimento de
+        Interfacer Web oferecida pela Pontificia Universidade Catolica de Minas Gerais.
+      <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+          href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      </p>
+
+    </div>
+  </main>
+</body>
+
+</html>

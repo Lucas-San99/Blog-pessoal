@@ -1,0 +1,127 @@
+/*CONFIGURAÇÕES GERAIS*/
+:link{
+  color:black;
+}
+.container-fluid{
+  max-width: 7680px;
+  max-height: 4320px;
+}
+.jumbotron.jumbotron-fluid{
+  border-radius: 15px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.navbar.navbar-light.bg-light{
+  border-radius: 10px;
+  margin: 10px 10px;
+}
+.btn.btn-primary{
+  float:unset;
+  margin: 10px 20px;;
+  background-color: lightgray;
+  border-color: gray;
+}
+
+/*CONFIGURAÇÕES DA ROW DE INTRODUÇÃO*/
+#fotoPerfil{
+  margin: 5px 30px;
+  float: left;
+  max-width: 360px;
+  max-height: 250px;
+  border-radius: 15px;
+}
+.introducao > .display-4{
+  margin: 30px 35px;
+  float: top;
+}
+#txtIntro{
+  float: top;
+  text-align:justify;
+  max-width: 90%;
+  margin: 10px 10px;
+}
+.container{
+  margin: 30px 30px;
+}
+.container > a > .media-object.img-responsive.img-thumbnail{
+  display: inline-block;
+  border-radius: 15px;
+  max-width: 40px;
+}
+
+/*CONFIGURAÇÕES DA ROW DE PORJETOS*/
+
+.cabecalhoProj > .titProj{
+float: bottom;
+}
+.rowProjects > .d-flex{
+float: right;
+}
+.rowProjects > .cards > .card{
+  display: inline-block;
+  margin: 10px 10px;
+}
+.rowProjects > .cards > .card{
+  border-radius: 15px;
+}
+.rowProjects > .cards > .card > img{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  max-width: 300px;
+}
+.rowProjects > .cards > .card > .tela-tp{
+  position: relative;
+  left: 4px;
+  top: 2px;
+}
+
+
+/*CONFIGURAÇÕES DA ROW DE EXPERIENCIA*/
+.rowExperience > .cards > .container-fluid > .card{
+  display: inline-block;
+  border-radius: 15px;
+  margin: 10px 10px;
+  text-align:justify;
+}
+.rowExperience > .cards > .container-fluid > .card-img-left{
+  max-width: 280px;
+  max-height: 150px;
+  float: left;
+  border-radius: 15px;
+  margin: 10px 10px;
+  align-content: center;
+}
+
+/*CONFIGURAÇÕES DA ROW DE REPOS*/
+.rowRepo > .cards > .card{
+  display: inline-block;
+  margin: 10px 10px;
+  text-align:justify;
+}
+.rowRepo > .cards > .card > img{
+  max-width: 40px; 
+  float: left; 
+  margin: 5px 5px;  
+}
+.rowRepo > .cards > .card > .card-body > .card-text{
+  position: relative;
+  left: 30px;
+  bottom: 5px;
+}
+
+
+
+/*CONFIGURAÇÕES DA ROW DE RECOMENDAÇÕES*/
+/*NÃO CONSEGUI MEXER NOS INFRAMES, E NÃO PROCUREI FORMAS MAIS AVANÇADAS DE QUEBRAR A SEGURNAÇA DELES.*/
+.rowRecomendations > .posts-videos{
+  margin: 15px 15px;
+}
+/*CONSIDERAÇÕES NO FINAL DA PAGINA*/
+.site-footer--copyright.fs-fine > .mt-auto.mb24{
+  text-align: center;
+  font-size: small;
+}
+.site-footer--copyright.fs-fine > div{
+  font-size: small;
+  text-align: center
+}

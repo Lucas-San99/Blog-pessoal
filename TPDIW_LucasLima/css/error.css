@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+        
+#container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: url('../img/erro404.jpg');
+    background-size: cover;
+}
+
+.divulg{
+  align-items: center;
+}
+a{
+  text-align: center;
+  color:blueviolet;
+}
