@@ -2,18 +2,16 @@
 :link{
   color:black;
 }
-.container-fluid{
-  max-width: 7680px;
-  max-height: 4320px;
-}
 .jumbotron.jumbotron-fluid{
   border-radius: 15px;
   max-width: 100%;
   max-height: 100%;
 }
-.navbar.navbar-light.bg-light{
+.navbar.navbar-light{
   border-radius: 10px;
   margin: 10px 10px;
+  align-content: center;
+  background-color: rgba(0, 0, 255, 0.384);
 }
 .btn.btn-primary{
   float:unset;
@@ -48,7 +46,9 @@
   border-radius: 15px;
   max-width: 40px;
 }
-
+#redesSociais{
+  display: block;
+}
 /*CONFIGURAÇÕES DA ROW DE PORJETOS*/
 
 .cabecalhoProj > .titProj{
